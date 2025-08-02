@@ -1,0 +1,30 @@
+# --- Node (backend) ---
+node_modules/
+.env
+dist/
+build/
+npm-debug.log*
+
+# --- Vite / React (frontend) ---
+**/node_modules/
+**/dist/
+**/.env
+**/.env.*.local
+**/.DS_Store
+
+# --- OS-specific ---
+.DS_Store
+Thumbs.db
+
+# --- Editor-specific ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Logs ---
+logs/
+*.log
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
